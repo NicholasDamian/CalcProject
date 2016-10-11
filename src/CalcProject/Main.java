@@ -7,9 +7,10 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String[] args)throws IOException{
-        Grocery g1 = new Grocery();
-        g1.Grocery();
-
+//        Grocery g1 = new Grocery();
+//        g1.Grocery();
+    Menu m1 = new Menu();
+        m1.Menu();
 
 
     }
