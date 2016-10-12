@@ -14,11 +14,12 @@ public class Past {
         System.out.println("Would you like to see the Past work done on the : ");
         System.out.println("1: Calculator");
         System.out.println("2: Tip Calculator");
-        System.out.println("3: Grocery List");
-        System.out.println("4: Back to Menu");
+        System.out.println("3: Back to Menu");
 
         choice = inputChoice.nextInt();
-        if(choice == 1){
+        switch (choice){
+            case 1:
+
 
         }
     }

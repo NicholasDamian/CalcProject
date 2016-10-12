@@ -40,7 +40,7 @@ public class TipCal {
             } else {
                 System.out.println("Honestly not sure what you are doing but please don't break my program");
             }
-//        tip = Math.round(tip*100)/100;
+        tip = Math.ceil(tip*100)/100;
             System.out.println("The tip Amount is: " + tip);
             total = tip + billAmount;
             System.out.println("The total Bill amount plus the tip is " + total);
